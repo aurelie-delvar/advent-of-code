@@ -1,4 +1,3 @@
-const { log } = require('console');
 const fs = require('fs');
 const readline = require('readline');
 const nomFichier = './input.txt';
@@ -21,11 +20,6 @@ function lireFichierLigneParLigne(nomFichier) {
         total += parseInt(finalNumber);
 
         console.log(total);
-    });
-
-    // Définir une fonction de traitement pour la fin de la lecture du fichier
-    lecteur.on('close', () => {
-        console.log('Lecture du fichier terminée.');
     });
 }
 
