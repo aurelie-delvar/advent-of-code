@@ -21,7 +21,7 @@ const map = {
 
 const fs = require('fs');
 const readline = require('readline');
-const nomFichier = './input.txt';
+const nomFichier = 'J1/input.txt';
 
 function lireFichierLigneParLigne(nomFichier) {
     // Créer une interface de lecture
